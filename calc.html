@@ -1,0 +1,43 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>My Calculator</title>
+    <link rel="stylesheet" href="calc.css" />
+</head>
+<body>
+    <div id="calc" class="calc">
+        <div>
+            <span id="output" class="output"></span>
+        </div>
+        <div>
+            <span class="button" onclick="calculator.setNumber(1);">1</span>
+            <span class="button" onclick="calculator.setNumber(2);">2</span>
+            <span class="button" onclick="calculator.setNumber(3);">3</span>
+            <span class="button" onclick="calculator.setOperation('+');">+</span>
+        </div>
+        <div>
+            <span class="button" onclick="calculator.setNumber(4);">4</span>
+            <span class="button" onclick="calculator.setNumber(5);">5</span>
+            <span class="button" onclick="calculator.setNumber(6);">6</span>
+            <span class="button" onclick="calculator.setOperation('-');">-</span>
+        </div>
+        <div>
+            <span class="button" onclick="calculator.setNumber(7);">7</span>
+            <span class="button" onclick="calculator.setNumber(8);">8</span>
+            <span class="button" onclick="calculator.setNumber(9);">9</span>
+            <span class="button" onclick="calculator.setOperation('/');">/</span>
+        </div>
+        <div>
+            <span class="button">0</span>
+            <span class="button">.</span>
+            <span class="button" onclick="calculator.calculate();">=</span>
+            <span class="button">*</span>
+        </div>
+    </div>
+
+    <script src="Scripts/jquery-1.8.2.js" type="text/javascript"></script>
+    <script src="calc.js" type="text/javascript"></script>
+</body>
+</html>

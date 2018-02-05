@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "js", "js", "{7702E920-5148-422A-8A78-D385938B9674}"
+	ProjectSection(SolutionItems) = preProject
+		Scripts\jquery-1.8.2.js = Scripts\jquery-1.8.2.js
+		jQuery.Tab.js = jQuery.Tab.js
+		jQuery.tab01.js = jQuery.tab01.js
+		tab.js = tab.js
+		tab01.js = tab01.js
+		toolbar.js = toolbar.js
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "css", "css", "{2090F7D0-0BF7-45D7-85CD-A0B8EADEE61C}"
+	ProjectSection(SolutionItems) = preProject
+		toolbar.css = toolbar.css
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ui", "ui", "{5CC46A95-FDBA-4196-919D-3943390D1026}"
+	ProjectSection(SolutionItems) = preProject
+		index.html = index.html
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
