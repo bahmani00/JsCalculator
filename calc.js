@@ -4,7 +4,7 @@ Math.Calculator = function(id){
     console.log("id = " + id);
 };
 
-var s = new Math.Calculator(123); */
+var s = new Math.Calculator(123);  */
 
 
 var calculator = (function(id){
